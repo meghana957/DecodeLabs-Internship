@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Project1 Responsive UI</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container header-inner">
+        <a class="brand" href="#">Project1</a>
+        <button id="menu-toggle" class="menu-toggle" aria-expanded="false" aria-label="Toggle navigation">
+          ☰
+        </button>
+        <nav class="site-nav" id="site-nav" aria-label="Main navigation">
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#features">Features</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="container">
+          <h1>Responsive UI Starter</h1>
+          <p>Minimal, accessible, and responsive starter layout.</p>
+          <p><a class="btn" href="#features">See features</a></p>
+        </div>
+      </section>
+
+      <section id="features" class="container features">
+        <h2>Features</h2>
+        <div class="grid">
+          <article class="card">
+            <div class="card-media"></div>
+            <h3>Responsive</h3>
+            <p>Layout adapts to any screen size using CSS Grid & Flexbox.</p>
+          </article>
+          <article class="card">
+            <div class="card-media"></div>
+            <h3>Accessible</h3>
+            <p>Keyboard-friendly navigation and sensible semantics.</p>
+          </article>
+          <article class="card">
+            <div class="card-media"></div>
+            <h3>Lightweight</h3>
+            <p>Small CSS and vanilla JavaScript for fast load times.</p>
+          </article>
+        </div>
+      </section>
+
+      <section id="about" class="container about">
+        <h2>About</h2>
+        <p>This project contains the basic files for a responsive UI: HTML, CSS, JS and an images folder.</p>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">
+        <p>&copy; 2026 Project1 — Built with a responsive layout.</p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
